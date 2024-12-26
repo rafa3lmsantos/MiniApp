@@ -1,0 +1,91 @@
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o botão do WhatsApp */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #25d366;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: #1ebe57;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Estilo responsivo */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
