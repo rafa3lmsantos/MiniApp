@@ -1,5 +1,6 @@
 # Mini Aplicação para Testes de Monitoração
 
+## Em contrução.
 
 # Alguns comando de Git:
 
