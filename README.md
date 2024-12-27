@@ -1,17 +1,15 @@
 # Mini Aplicação para Testes de Monitoração
 
-!Badge de Status
+## Em contrução
 
 ## Descrição
-Uma breve descrição do que a aplicação faz e quais problemas ela resolve. Por exemplo: "Esta aplicação monitora o desempenho de sistemas em tempo real, fornecendo alertas e relatórios detalhados."
+Este mini aplicativo tem por objetivo ser utilizado para testar em algumas ferramentas de monitoração como o Grafana, Dynatrace, Zabbix e etc. Esta aplicação monitora o desempenho de sistemas em tempo real, fornecendo alertas e relatórios detalhados.
 
 ## Índice
 - Instalação
 - Uso
 - Comandos Git
-- Contribuição
-- Licença
-- Contato
+
 
 ## Instalação
 Instruções passo a passo para instalar e configurar o projeto.
