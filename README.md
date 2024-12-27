@@ -20,8 +20,17 @@ git clone https://github.com/rafa3lmsantos/MiniApp.git
 # Navegue até o diretório do projeto
 cd MiniApp
 
+# Crie um ambiente virtual
+python -m venv venv
+
+# Ative o ambiente virtual
+# No Windows
+venv\Scripts\activate
+# No macOS/Linux
+source venv/bin/activate
+
 # Instale as dependências
-npm install
+pip install -r requirements.txt
 ```
 
 ## Comandos Git
