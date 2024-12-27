@@ -7,7 +7,6 @@ Este mini aplicativo tem por objetivo ser utilizado para testar em algumas ferra
 
 ## Índice
 - Instalação
-- Uso
 - Comandos Git
 
 
