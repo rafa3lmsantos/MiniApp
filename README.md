@@ -24,8 +24,10 @@ cd MiniApp
 python -m venv venv
 
 # Ative o ambiente virtual
+
 # No Windows
 venv\Scripts\activate
+
 # No macOS/Linux
 source venv/bin/activate
 
@@ -78,6 +80,10 @@ INSERT INTO nome_da_tabela (coluna1, coluna2) VALUES ('valor1', 'valor2');
 ### Atualizar dados em uma tabela
 ```bash
 UPDATE nome_da_tabela SET coluna1 = 'novo_valor' WHERE coluna2 = 'condição';
+```
+### Para sair do banco digite
+```bash
+.quit
 ```
 
 ### Deletar dados de uma tabela:
